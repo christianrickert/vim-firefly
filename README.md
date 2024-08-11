@@ -1,2 +1,4 @@
 # vim-firefly
-firefly - Vim Color Scheme
+Firefly - Vim Color Scheme
+
+![Alt text](templates/firefly.webp)
