@@ -104,10 +104,14 @@ Color: calm_teal     #2fd381                  123        Cyan
 Color: olive_green   #8bc34a                  148        Green
 Color: light_gray    #bdbdbd                  145        Lightgray
 Color: warm_red      #d32f2f                  160        Red
+Color: soft_violet   #d06cf8                  177        Magenta
 Color: gentle_lime   #cddc39                  190        Yellow
 Color: warm_orange   #f57c00                  214        Yellow
+Color: vivid_orange  #f9a30e                  214        Yellow
+Color: light_red     #ff5b50                  210        Red
 Color: soft_coral    #e57373                  210        Lightred
 Color: soft_pink     #e58ac2                  219        Magenta
+Color: vivid_yellow  #fedf13                  220        LightYellow
 Color: misty_rose    #ffcdd2                  224        Lightred
 Color: pale_peach    #ffccbc                  224        Lightyellow
 Color: golden_yellow #fbc02d                  226        Lightyellow
@@ -191,11 +195,11 @@ Constant             cool_blue         none
 Error                warm_white        dark_warm_ash     reverse
 Identifier           calm_teal         none
 Ignore               warm_white        none
-PreProc              warm_orange       none
+PreProc              vivid_orange       none
 Special              cool_blue         none              italic
-Statement            warm_red          none              bold
-Todo                 calm_teal         none              bold
-Type                 soft_amber        none
+Statement            light_red         none
+Todo                 soft_violet       none
+Type                 vivid_yellow      none
 Underlined           cool_blue         none              underline
 ; See `:help CursorIM`
 CursorIM             none              fg

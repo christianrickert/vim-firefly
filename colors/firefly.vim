@@ -123,11 +123,11 @@ hi Constant guifg=#2f81d3 guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#fdf6e3 guibg=#2a2a2a gui=reverse cterm=reverse
 hi Identifier guifg=#2fd381 guibg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=#fdf6e3 guibg=NONE gui=NONE cterm=NONE
-hi PreProc guifg=#f57c00 guibg=NONE gui=NONE cterm=NONE
+hi PreProc guifg=#f9a30e guibg=NONE gui=NONE cterm=NONE
 hi Special guifg=#2f81d3 guibg=NONE gui=italic cterm=italic
-hi Statement guifg=#d32f2f guibg=NONE gui=bold cterm=bold
-hi Todo guifg=#2fd381 guibg=NONE gui=bold cterm=bold
-hi Type guifg=#ffeb3b guibg=NONE gui=NONE cterm=NONE
+hi Statement guifg=#ff5b50 guibg=NONE gui=NONE cterm=NONE
+hi Todo guifg=#d06cf8 guibg=NONE gui=NONE cterm=NONE
+hi Type guifg=#fedf13 guibg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#2f81d3 guibg=NONE gui=underline cterm=underline
 hi CursorIM guifg=NONE guibg=fg gui=NONE cterm=NONE
 hi ToolbarLine guifg=NONE guibg=#2a2a2a gui=NONE cterm=NONE
@@ -197,9 +197,9 @@ if s:t_Co >= 256
   hi Ignore ctermfg=230 ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=214 ctermbg=NONE cterm=NONE
   hi Special ctermfg=33 ctermbg=NONE cterm=italic
-  hi Statement ctermfg=160 ctermbg=NONE cterm=bold
-  hi Todo ctermfg=123 ctermbg=NONE cterm=bold
-  hi Type ctermfg=229 ctermbg=NONE cterm=NONE
+  hi Statement ctermfg=210 ctermbg=NONE cterm=NONE
+  hi Todo ctermfg=177 ctermbg=NONE cterm=NONE
+  hi Type ctermfg=220 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=33 ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=fg cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=234 cterm=NONE
@@ -272,9 +272,9 @@ if s:t_Co >= 8
   hi Ignore ctermfg=White ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=Yellow ctermbg=NONE cterm=NONE
   hi Special ctermfg=Blue ctermbg=NONE cterm=italic
-  hi Statement ctermfg=Red ctermbg=NONE cterm=bold
-  hi Todo ctermfg=Cyan ctermbg=NONE cterm=bold
-  hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
+  hi Statement ctermfg=Red ctermbg=NONE cterm=NONE
+  hi Todo ctermfg=Magenta ctermbg=NONE cterm=NONE
+  hi Type ctermfg=LightYellow ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=fg cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=Darkgray cterm=NONE
@@ -396,10 +396,14 @@ endif
 " Color: olive_green   #8bc34a                  148        Green
 " Color: light_gray    #bdbdbd                  145        Lightgray
 " Color: warm_red      #d32f2f                  160        Red
+" Color: soft_violet   #d06cf8                  177        Magenta
 " Color: gentle_lime   #cddc39                  190        Yellow
 " Color: warm_orange   #f57c00                  214        Yellow
+" Color: vivid_orange  #f9a30e                  214        Yellow
+" Color: light_red     #ff5b50                  210        Red
 " Color: soft_coral    #e57373                  210        Lightred
 " Color: soft_pink     #e58ac2                  219        Magenta
+" Color: vivid_yellow  #fedf13                  220        LightYellow
 " Color: misty_rose    #ffcdd2                  224        Lightred
 " Color: pale_peach    #ffccbc                  224        Lightyellow
 " Color: golden_yellow #fbc02d                  226        Lightyellow
