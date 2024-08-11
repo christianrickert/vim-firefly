@@ -79,7 +79,7 @@ Background: dark
 
 ; Color palette {{{
 ; Color name         GUI                     Base256     Base16 (optional)
-Color: black         rgb( 57,  71,  89)        ~         Black
+Color: black         rgb(  0,   0,   0)        ~         Black
 Color: red           rgb(255,   0,   0)        ~         DarkRed
 Color: green         rgb(  0, 255,   0)        ~         DarkGreen
 Color: yellow        rgb(255, 255,   0)        ~         DarkYellow
@@ -161,7 +161,7 @@ ErrorMsg             warm_white        dark_warm_ash     reverse
 FoldColumn           warm_white        dark_warm_ash
 Folded               warm_white        dark_warm_ash     italic
 IncSearch            warm_white        dark_warm_ash     t=reverse g=standout
-LineNr               warm_white        dark_warm_ash
+LineNr               medium_gray       dark_warm_ash
 MatchParen           warm_white        dark_warm_ash     reverse
 ModeMsg              warm_white        dark_warm_ash
 MoreMsg              warm_white        dark_warm_ash
@@ -185,9 +185,9 @@ TabLineFill          warm_white        dark_warm_ash
 TabLineSel           warm_white        dark_warm_ash
 Title                warm_white        dark_warm_ash
 VertSplit            warm_white        dark_warm_ash
-Visual               warm_white        dark_warm_ash
+Visual               warm_white        dark_warm_ash      reverse
 VisualNOS            warm_white        dark_warm_ash
-WarningMsg           warm_white        dark_warm_ash
+WarningMsg           warm_red          dark_warm_ash
 WildMenu             warm_white        dark_warm_ash
 ; Other conventional group names (see `:help group-name`)
 Comment              medium_gray       none              italic
