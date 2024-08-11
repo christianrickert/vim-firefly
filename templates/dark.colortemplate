@@ -14,6 +14,12 @@ License:       Public domain
 Option Prefix: dark
 ; }}}
 
+; Compile scheme:
+; :w! | Colortemplate! | colorscheme firefly
+;
+; Visualize scheme:
+; :help group-name"
+;
 ; Documentation {{{
 Include: _help.colortemplate
 ; }}}
