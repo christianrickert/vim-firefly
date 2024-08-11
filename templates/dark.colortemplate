@@ -191,7 +191,7 @@ VisualNOS            warm_white        dark_warm_ash
 WarningMsg           warm_white        dark_warm_ash
 WildMenu             warm_white        dark_warm_ash
 ; Other conventional group names (see `:help group-name`)
-Comment              medium_gray       none              italic
+Comment              soft_violet       none              italic
 Constant             light_blue        none
 Error                warm_white        dark_warm_ash     reverse
 Identifier           calm_teal         none

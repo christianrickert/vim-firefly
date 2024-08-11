@@ -118,7 +118,7 @@ hi Visual guifg=#fdf6e3 guibg=#2a2a2a gui=reverse cterm=reverse
 hi VisualNOS guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
 hi WarningMsg guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
 hi WildMenu guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
-hi Comment guifg=#757575 guibg=NONE gui=italic cterm=italic
+hi Comment guifg=#d06cf8 guibg=NONE gui=italic cterm=italic
 hi Constant guifg=#509dff guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#fdf6e3 guibg=#2a2a2a gui=reverse cterm=reverse
 hi Identifier guifg=#2fd381 guibg=NONE gui=NONE cterm=NONE
@@ -190,7 +190,7 @@ if s:t_Co >= 256
   hi VisualNOS ctermfg=230 ctermbg=234 cterm=NONE
   hi WarningMsg ctermfg=230 ctermbg=234 cterm=NONE
   hi WildMenu ctermfg=230 ctermbg=234 cterm=NONE
-  hi Comment ctermfg=240 ctermbg=NONE cterm=italic
+  hi Comment ctermfg=177 ctermbg=NONE cterm=italic
   hi Constant ctermfg=69 ctermbg=NONE cterm=NONE
   hi Error ctermfg=230 ctermbg=234 cterm=reverse
   hi Identifier ctermfg=123 ctermbg=NONE cterm=NONE
@@ -265,7 +265,7 @@ if s:t_Co >= 8
   hi VisualNOS ctermfg=White ctermbg=Darkgray cterm=NONE
   hi WarningMsg ctermfg=White ctermbg=Darkgray cterm=NONE
   hi WildMenu ctermfg=White ctermbg=Darkgray cterm=NONE
-  hi Comment ctermfg=Gray ctermbg=NONE cterm=italic
+  hi Comment ctermfg=Magenta ctermbg=NONE cterm=italic
   hi Constant ctermfg=LightBlue ctermbg=NONE cterm=NONE
   hi Error ctermfg=White ctermbg=Darkgray cterm=reverse
   hi Identifier ctermfg=Cyan ctermbg=NONE cterm=NONE
