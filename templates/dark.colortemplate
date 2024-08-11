@@ -186,7 +186,7 @@ TabLineFill          warm_white        dark_warm_ash
 TabLineSel           warm_white        dark_warm_ash
 Title                warm_white        dark_warm_ash
 VertSplit            warm_white        dark_warm_ash
-Visual               warm_white        dark_warm_ash      reverse
+Visual               warm_white        dark_warm_ash     reverse
 VisualNOS            warm_white        dark_warm_ash
 WarningMsg           warm_white        dark_warm_ash
 WildMenu             warm_white        dark_warm_ash
