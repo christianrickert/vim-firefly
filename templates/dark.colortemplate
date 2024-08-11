@@ -2,13 +2,13 @@
 
 ; Information {{{
 ; Mandatory
-Full name:     Dark
+Full name:     Firefly
 Short name:    firefly
-Author:        Myself <myself@somewhere.org>
+Author:        Christian Rickert <rc.email@icloud.com>
 ; Optional
-Maintainer:    Myself <myself@somewhere.org>
-Website:       https://me.org
-Description:   Template for dark colorscheme
+Maintainer:    Christian Rickert <rc.email@icloud.com>
+Website:       https://github.com/christianrickert/vim-firefly
+Description:   Vim color scheme for buggy summer nights
 License:       Public domain
 ; Prefix for options: short name is used if this key is not present:
 Option Prefix: dark
@@ -91,29 +91,29 @@ Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 Color: brightwhite   #e0e0ed                  231        White
 ; Custom colors
-Color: cool_blue           #2f81d3             33        Blue
-Color: earthy_brown        #6d4c41             94        Brown
-Color: faded_walnut        #4c3b30             94        Brown
-Color: calm_teal      #2fd381            123        Cyan
-Color: olive_green         #8bc34a            148        Green
-Color: light_gray          #bdbdbd            145        Lightgray
-Color: warm_red            #d32f2f            160        Red
-Color: gentle_lime    #cddc39            190        Yellow
-Color: warm_orange         #f57c00            214        Yellow
-Color: soft_coral          #e57373            210        Lightred
-Color: soft_pink      #e58ac2            219        Magenta
-Color: misty_rose     #ffcdd2            224        Lightred
-Color: pale_peach     #ffccbc            224        Lightyellow
-Color: golden_yellow       #fbc02d            226        Lightyellow
-Color: soft_amber     #ffeb3b            229        Yellow
-Color: warm_white          #fdf6e3            230        White
-Color: dark_warm_ash        #2a2a2a            234        Darkgray
-Color: soft_charcoal       #2c2c2c            235        Darkgray
-Color: warm_ash            #3a3a3a            236        Darkgray
-Color: dark_gray           #424242            237        Darkgray
-Color: deep_slate_blue     #333a56            238        Darkblue
-Color: muted_olive         #4b4f3e            239        Brown
-Color: medium_gray         #757575            240        Gray
+Color: cool_blue     #2f81d3                   33        Blue
+Color: earthy_brown  #6d4c41                   94        Brown
+Color: faded_walnut  #4c3b30                   94        Brown
+Color: calm_teal     #2fd381                  123        Cyan
+Color: olive_green   #8bc34a                  148        Green
+Color: light_gray    #bdbdbd                  145        Lightgray
+Color: warm_red      #d32f2f                  160        Red
+Color: gentle_lime   #cddc39                  190        Yellow
+Color: warm_orange   #f57c00                  214        Yellow
+Color: soft_coral    #e57373                  210        Lightred
+Color: soft_pink     #e58ac2                  219        Magenta
+Color: misty_rose    #ffcdd2                  224        Lightred
+Color: pale_peach    #ffccbc                  224        Lightyellow
+Color: golden_yellow #fbc02d                  226        Lightyellow
+Color: soft_amber    #ffeb3b                  229        Yellow
+Color: warm_white    #fdf6e3                  230        White
+Color: dark_warm_ash #2a2a2a                  234        Darkgray
+Color: soft_charcoal #2c2c2c                  235        Darkgray
+Color: warm_ash      #3a3a3a                  236        Darkgray
+Color: dark_gray     #424242                  237        Darkgray
+Color: slate_blue    #333a56                  238        Darkblue
+Color: muted_olive   #4b4f3e                  239        Brown
+Color: medium_gray   #757575                  240        Gray
 ; }}}
 ; Terminal colors {{{
 Term colors: black red green yellow blue magenta cyan white
@@ -137,37 +137,37 @@ Variant: gui 256 8
 ; Group              Foreground        Background        Attributes
 ColorColumn          fg                dark_warm_ash
 Conceal              none              none
-;Cursor               warm_white        dark_warm_ash
+Cursor               warm_white        dark_warm_ash     reverse
 CursorColumn         warm_white        dark_warm_ash
 CursorLine           warm_white        dark_warm_ash
 CursorLineNr         warm_white        dark_warm_ash
-DiffAdd              warm_white        dark_warm_ash          reverse
-DiffChange           warm_white        dark_warm_ash          reverse
-DiffDelete           warm_white        dark_warm_ash          reverse
-DiffText             warm_white        dark_warm_ash          bold,reverse
+DiffAdd              warm_white        dark_warm_ash     reverse
+DiffChange           warm_white        dark_warm_ash     reverse
+DiffDelete           warm_white        dark_warm_ash     reverse
+DiffText             warm_white        dark_warm_ash     bold,reverse
 Directory            warm_white        dark_warm_ash
 EndOfBuffer          warm_white        dark_warm_ash
-ErrorMsg             warm_white        dark_warm_ash          reverse
+ErrorMsg             warm_white        dark_warm_ash     reverse
 FoldColumn           warm_white        dark_warm_ash
-Folded               warm_white        dark_warm_ash          italic
-IncSearch            warm_white        dark_warm_ash          t=reverse g=standout
+Folded               warm_white        dark_warm_ash     italic
+IncSearch            warm_white        dark_warm_ash     t=reverse g=standout
 LineNr               warm_white        dark_warm_ash
-MatchParen           warm_white        dark_warm_ash
+MatchParen           warm_white        dark_warm_ash     reverse
 ModeMsg              warm_white        dark_warm_ash
 MoreMsg              warm_white        dark_warm_ash
 NonText              warm_white        dark_warm_ash
 Pmenu                warm_white        dark_warm_ash
 PmenuSbar            warm_white        dark_warm_ash
-PmenuSel             warm_white        dark_warm_ash          reverse
+PmenuSel             warm_white        dark_warm_ash     reverse
 PmenuThumb           warm_white        dark_warm_ash
 Question             warm_white        dark_warm_ash
-Search               warm_white        dark_warm_ash
+Search               warm_white        dark_warm_ash     reverse
 SignColumn           warm_white        dark_warm_ash
 SpecialKey           warm_white        dark_warm_ash
-SpellBad             warm_white        dark_warm_ash          s=red
-SpellCap             warm_white        dark_warm_ash          s=blue
-SpellLocal           warm_white        dark_warm_ash          s=magenta
-SpellRare            warm_white        dark_warm_ash          s=cyan reverse
+SpellBad             warm_white        dark_warm_ash     s=red
+SpellCap             warm_white        dark_warm_ash     s=blue
+SpellLocal           warm_white        dark_warm_ash     s=magenta
+SpellRare            warm_white        dark_warm_ash     s=cyan reverse
 StatusLine           warm_white        dark_warm_ash
 StatusLineNC         warm_white        dark_warm_ash
 TabLine              warm_white        dark_warm_ash
@@ -180,22 +180,22 @@ VisualNOS            warm_white        dark_warm_ash
 WarningMsg           warm_white        dark_warm_ash
 WildMenu             warm_white        dark_warm_ash
 ; Other conventional group names (see `:help group-name`)
-Comment              medium_gray            none         italic
-Constant             cool_blue             none
-Error                warm_white        dark_warm_ash          reverse
+Comment              medium_gray       none              italic
+Constant             cool_blue         none
+Error                warm_white        dark_warm_ash     reverse
 Identifier           calm_teal         none
-Ignore               warm_white             none
-PreProc              warm_orange             none
-Special              cool_blue             none        italic
-Statement            warm_red             none        bold
-Todo                 calm_teal             none        bold
-Type                 soft_amber             none
-Underlined           cool_blue             none       underline
+Ignore               warm_white        none
+PreProc              warm_orange       none
+Special              cool_blue         none              italic
+Statement            warm_red          none              bold
+Todo                 calm_teal         none              bold
+Type                 soft_amber        none
+Underlined           cool_blue         none              underline
 ; See `:help CursorIM`
 CursorIM             none              fg
 ; See `:help window-toolbar`
 ToolbarLine          none              dark_warm_ash
-ToolbarButton        warm_white        dark_warm_ash          bold
+ToolbarButton        warm_white        dark_warm_ash     bold
 ; }}}
 
 ; Additional highlight groups {{{
