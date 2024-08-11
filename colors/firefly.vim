@@ -116,18 +116,18 @@ hi Title guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
 hi VertSplit guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
 hi Visual guifg=#fdf6e3 guibg=#2a2a2a gui=reverse cterm=reverse
 hi VisualNOS guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
-hi WarningMsg guifg=#d32f2f guibg=#2a2a2a gui=NONE cterm=NONE
+hi WarningMsg guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
 hi WildMenu guifg=#fdf6e3 guibg=#2a2a2a gui=NONE cterm=NONE
 hi Comment guifg=#757575 guibg=NONE gui=italic cterm=italic
-hi Constant guifg=#2f81d3 guibg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#509dff guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#fdf6e3 guibg=#2a2a2a gui=reverse cterm=reverse
 hi Identifier guifg=#2fd381 guibg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=#fdf6e3 guibg=NONE gui=NONE cterm=NONE
-hi PreProc guifg=#f9a30e guibg=NONE gui=NONE cterm=NONE
-hi Special guifg=#2f81d3 guibg=NONE gui=italic cterm=italic
-hi Statement guifg=#ff5b50 guibg=NONE gui=NONE cterm=NONE
+hi PreProc guifg=#fed213 guibg=NONE gui=NONE cterm=NONE
+hi Special guifg=#509dff guibg=NONE gui=italic cterm=italic
+hi Statement guifg=#ff5b46 guibg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#d06cf8 guibg=NONE gui=NONE cterm=NONE
-hi Type guifg=#fedf13 guibg=NONE gui=NONE cterm=NONE
+hi Type guifg=#f9990e guibg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#2f81d3 guibg=NONE gui=underline cterm=underline
 hi CursorIM guifg=NONE guibg=fg gui=NONE cterm=NONE
 hi ToolbarLine guifg=NONE guibg=#2a2a2a gui=NONE cterm=NONE
@@ -188,18 +188,18 @@ if s:t_Co >= 256
   hi VertSplit ctermfg=230 ctermbg=234 cterm=NONE
   hi Visual ctermfg=230 ctermbg=234 cterm=reverse
   hi VisualNOS ctermfg=230 ctermbg=234 cterm=NONE
-  hi WarningMsg ctermfg=160 ctermbg=234 cterm=NONE
+  hi WarningMsg ctermfg=230 ctermbg=234 cterm=NONE
   hi WildMenu ctermfg=230 ctermbg=234 cterm=NONE
   hi Comment ctermfg=240 ctermbg=NONE cterm=italic
-  hi Constant ctermfg=33 ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=69 ctermbg=NONE cterm=NONE
   hi Error ctermfg=230 ctermbg=234 cterm=reverse
   hi Identifier ctermfg=123 ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=230 ctermbg=NONE cterm=NONE
-  hi PreProc ctermfg=214 ctermbg=NONE cterm=NONE
-  hi Special ctermfg=33 ctermbg=NONE cterm=italic
+  hi PreProc ctermfg=220 ctermbg=NONE cterm=NONE
+  hi Special ctermfg=69 ctermbg=NONE cterm=italic
   hi Statement ctermfg=210 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=177 ctermbg=NONE cterm=NONE
-  hi Type ctermfg=220 ctermbg=NONE cterm=NONE
+  hi Type ctermfg=214 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=33 ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=fg cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=234 cterm=NONE
@@ -263,18 +263,18 @@ if s:t_Co >= 8
   hi VertSplit ctermfg=White ctermbg=Darkgray cterm=NONE
   hi Visual ctermfg=White ctermbg=Darkgray cterm=reverse
   hi VisualNOS ctermfg=White ctermbg=Darkgray cterm=NONE
-  hi WarningMsg ctermfg=Red ctermbg=Darkgray cterm=NONE
+  hi WarningMsg ctermfg=White ctermbg=Darkgray cterm=NONE
   hi WildMenu ctermfg=White ctermbg=Darkgray cterm=NONE
   hi Comment ctermfg=Gray ctermbg=NONE cterm=italic
-  hi Constant ctermfg=Blue ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=LightBlue ctermbg=NONE cterm=NONE
   hi Error ctermfg=White ctermbg=Darkgray cterm=reverse
   hi Identifier ctermfg=Cyan ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=White ctermbg=NONE cterm=NONE
-  hi PreProc ctermfg=Yellow ctermbg=NONE cterm=NONE
-  hi Special ctermfg=Blue ctermbg=NONE cterm=italic
+  hi PreProc ctermfg=LightYellow ctermbg=NONE cterm=NONE
+  hi Special ctermfg=LightBlue ctermbg=NONE cterm=italic
   hi Statement ctermfg=Red ctermbg=NONE cterm=NONE
   hi Todo ctermfg=Magenta ctermbg=NONE cterm=NONE
-  hi Type ctermfg=LightYellow ctermbg=NONE cterm=NONE
+  hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=fg cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=Darkgray cterm=NONE
@@ -390,6 +390,7 @@ endif
 " Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
 " Color: brightwhite   #e0e0ed                  231        White
 " Color: cool_blue     #2f81d3                   33        Blue
+" Color: light_blue    #509dff                   69        LightBlue
 " Color: earthy_brown  #6d4c41                   94        Brown
 " Color: faded_walnut  #4c3b30                   94        Brown
 " Color: calm_teal     #2fd381                  123        Cyan
@@ -399,11 +400,11 @@ endif
 " Color: soft_violet   #d06cf8                  177        Magenta
 " Color: gentle_lime   #cddc39                  190        Yellow
 " Color: warm_orange   #f57c00                  214        Yellow
-" Color: vivid_orange  #f9a30e                  214        Yellow
-" Color: light_red     #ff5b50                  210        Red
+" Color: vivid_orange  #f9990e                  214        Yellow
+" Color: light_red     #ff5b46                  210        Red
 " Color: soft_coral    #e57373                  210        Lightred
 " Color: soft_pink     #e58ac2                  219        Magenta
-" Color: vivid_yellow  #fedf13                  220        LightYellow
+" Color: vivid_yellow  #fed213                  220        LightYellow
 " Color: misty_rose    #ffcdd2                  224        Lightred
 " Color: pale_peach    #ffccbc                  224        Lightyellow
 " Color: golden_yellow #fbc02d                  226        Lightyellow
