@@ -99,31 +99,13 @@ Color: brightwhite   #e0e0ed                  231        White
 ; Custom colors
 Color: cool_blue     #6da7e0                  153        Blue
 Color: light_blue    #84baff                  186        LightBlue
-Color: earthy_brown  #99827a                  153        Brown
-Color: faded_walnut  #82766e                  130        Brown
 Color: calm_teal     #6de0a7                  167        Cyan
-Color: olive_green   #aed580                  213        Green
-Color: light_gray    #bdbdbd                  189        LightGray
-Color: warm_red      #e06d6d                  224        Red
 Color: soft_violet   #de98fa                  222        Magenta
-Color: gentle_lime   #dce674                  230        Yellow
-Color: warm_orange   #f8a34c                  163        Yellow
 Color: vivid_orange  #faae3d                  184        Yellow
 Color: light_red     #ff8c7e                  140        LightRed
-Color: soft_coral    #ed9d9d                  157        LightRed
-Color: soft_pink     #edadd4                  173        Magenta
-Color: vivid_yellow  #fee050                  224        LightYellow
-Color: misty_rose    #ffdce0                  220        LightRed
-Color: pale_peach    #ffdbd0                  219        LightYellow
-Color: golden_yellow #fcd36c                  211        LightYellow
-Color: soft_amber    #fff176                  241        LightYellow
+Color: vivid_yellow  #fede46                  224        LightYellow
 Color: warm_white    #fdf6e3                  249        White
 Color: dark_warm_ash #2a2a2a                  106        DarkGray
-Color: soft_charcoal #2c2c2c                  107        DarkGray
-Color: warm_ash      #3a3a3a                  117        DarkGray
-Color: dark_gray     #424242                  123        DarkGray
-Color: slate_blue    #707589                  117        DarkBlue
-Color: muted_olive   #818478                  132        Brown
 Color: medium_gray   #757575                  158        Gray
 ; }}}
 ; Terminal colors {{{
