@@ -3,3 +3,4 @@ tags
 .DS_Store
 *.swp
 *.swo
+/sources

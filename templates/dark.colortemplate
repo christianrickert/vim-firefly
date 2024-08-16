@@ -15,10 +15,13 @@ Option Prefix: dark
 ; }}}
 
 ; Compile scheme:
-; :w! | Colortemplate! | colorscheme firefly
+; :w! | Colortemplate! ~/.vim | colorscheme firefly
 ;
 ; Visualize scheme:
 ; :help group-name"
+;
+; Xterm 2256 color chart
+; https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg
 ;
 ; Documentation {{{
 Include: _help.colortemplate
@@ -97,16 +100,16 @@ Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 Color: brightwhite   #e0e0ed                  231        White
 ; Custom colors
-Color: cool_blue     #6da7e0                  153        Blue
-Color: light_blue    #84baff                  186        LightBlue
-Color: calm_teal     #6de0a7                  167        Cyan
-Color: soft_violet   #de98fa                  222        Magenta
-Color: vivid_orange  #faae3d                  184        Yellow
-Color: light_red     #ff8c7e                  140        LightRed
-Color: vivid_yellow  #fede46                  224        LightYellow
+Color: dark_warm_ash #2a2a2a                  235        Black
+Color: light_red     #ff8c7e                  210        Red
+Color: vivid_orange  #faae3d                  214        Yellow
+Color: vivid_yellow  #f9e173                  227        Yellow
+Color: light_blue    #84baff                  075        Blue
+Color: soft_violet   #de98fa                  219        Magenta
+Color: calm_teal     #6de0a7                  086        Cyan
+Color: medium_gray   #757575                  241        DarkGray
 Color: warm_white    #fdf6e3                  249        White
-Color: dark_warm_ash #2a2a2a                  106        DarkGray
-Color: medium_gray   #757575                  158        Gray
+
 ; }}}
 ; Terminal colors {{{
 Term colors: black red green yellow blue magenta cyan white
@@ -183,7 +186,7 @@ Special              light_blue        none              italic
 Statement            light_red         none
 Todo                 soft_violet       none
 Type                 vivid_orange      none
-Underlined           cool_blue         none              underline
+Underlined           light_blue        none              underline
 ; See `:help CursorIM`
 CursorIM             none              fg
 ; See `:help window-toolbar`
