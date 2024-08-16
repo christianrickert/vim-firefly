@@ -5,8 +5,10 @@ Firefly - Vim Color Scheme
 
 My personal dark Vim color scheme.
 
-I got tired of looking at pea green strings with [gruvbox](https://github.com/morhetz/gruvbox) and created my own color scheme that is easy on the eyes: It exhibits a muted color palette that reduces eye strain and helps my brain to process source code late into the night, hence the name.
+> The best thing since sliced bread. 🍞
 
+I got tired of looking at pea green strings with [gruvbox](https://github.com/morhetz/gruvbox) and created my own color scheme[^1] that is easy on the eyes: It exhibits a muted color palette that reduces eye strain and helps my brain to process source code late into the night, hence the name. 
+<br />
 <table>
   <tr>
     <td align="center">24-bit color</td>
@@ -33,7 +35,6 @@ Firefly's color palette is optimized for Vim's `termguicolors`, but it adjusts s
 >call plug#end()
 >```
 
->[!CAUTION]
->I will update Firefly as I see fit. If that's unacceptable for you, don't update or create your own fork.
+_I hope you enjoy Firefly as much as I do!_
 
-The color scheme files were generated with [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate).
+[^1]: The color scheme files were generated with [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate).
