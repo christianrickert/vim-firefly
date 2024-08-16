@@ -108,7 +108,7 @@ Color: light_blue    #84baff                  075        Blue
 Color: soft_violet   #de98fa                  219        Magenta
 Color: calm_teal     #6de0a7                  086        Cyan
 Color: medium_gray   #757575                  241        DarkGray
-Color: warm_white    #fdf6e3                  249        White
+Color: warm_white    #fdf6e3                  255        White
 
 ; }}}
 ; Terminal colors {{{
