@@ -15,13 +15,13 @@ Option Prefix: dark
 ; }}}
 
 ; Compile scheme:
-; :w! | Colortemplate! ~/.vim | colorscheme firefly
+; `:w! | Colortemplate! ~/.vim | colorscheme firefly`
 ;
 ; Visualize scheme:
-; :help group-name"
+; `:help group-name`
 ;
 ; Xterm 2256 color chart
-; https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg
+; (https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg)
 ;
 ; Documentation {{{
 Include: _help.colortemplate
@@ -109,8 +109,8 @@ Color: soft_violet   #de98fa                  219        Magenta
 Color: calm_teal     #6de0a7                  086        Cyan
 Color: medium_gray   #757575                  241        DarkGray
 Color: warm_white    #fdf6e3                  255        White
-
 ; }}}
+
 ; Terminal colors {{{
 Term colors: black red green yellow blue magenta cyan white
 Term colors: brightblack brightred brightgreen brightyellow
