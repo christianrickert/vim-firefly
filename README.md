@@ -1,7 +1,5 @@
 # firefly  🪲
 
-> The best thing since sliced bread. 🍞
-
 ![Artist's impression (ChatGPT, let's be real) of fireflies gathering at a forest clearing.](templates/firefly.png)
 
 My personal dark vim color scheme with vibrant, but muted colors.
