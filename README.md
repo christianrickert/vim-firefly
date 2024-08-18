@@ -22,7 +22,7 @@ I got tired of looking at pea green strings with [gruvbox](https://github.com/mo
 firefly's color palette is optimized for Vim's `termguicolors`, but it adjusts seamlessly to reduced terminal colors (`t_Co=256`, `t_Co=16`). See the screenshots in the table above.
 
 >[!TIP]
->You can install the firefly color scheme with [vim-plug](https://github.com/junegunn/vim-plug) - by adding these lines to your `vimrc`:
+>You can install the firefly color scheme with [vim-plug](https://github.com/junegunn/vim-plug). Add these lines to your `vimrc`:
 >```vim
 >call plug#begin()
 >
