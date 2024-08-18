@@ -4,7 +4,7 @@
 
 _firefly_ is my personal dark vim color scheme with vibrant, but muted colors.
 
-I got tired of looking at pea green strings with [gruvbox](https://github.com/morhetz/gruvbox) and created my own color scheme[^1]: _firefly_'s colors reduce eye strain and help my brain process buggy source code late into the night, hence the name. 
+I got tired of looking at pea green strings with [gruvbox](https://github.com/morhetz/gruvbox) and created my own color scheme[^1]: _firefly_'s colors reduce eye strain and help my brain process buggy source code late into the night, hence the name.
 <br />
 <table>
   <tr>
@@ -19,7 +19,7 @@ I got tired of looking at pea green strings with [gruvbox](https://github.com/mo
   </tr>
  </table>
 
-firefly's color palette is optimized for Vim's `termguicolors`, but it adjusts seamlessly to reduced terminal colors (`t_Co=256`, `t_Co=16`). See the screenshots in the table above. For best results, consider installing a collection of language packs such as [`vim-polyglot`](https://github.com/sheerun/vim-polyglot).
+firefly's color palette is optimized for Vim's `termguicolors`, but it adjusts seamlessly to reduced terminal colors (`t_Co=256`, `t_Co=16`). See the screenshots in the table above.
 
 >[!TIP]
 >You can install the firefly color scheme with [vim-plug](https://github.com/junegunn/vim-plug) - by adding these lines to your `vimrc`:
