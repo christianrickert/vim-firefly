@@ -101,9 +101,9 @@ Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
 Color: brightwhite   #e0e0ed                  231        White
 ; Custom colors
 Color: dark_warm_ash #2a2a2a                  235        Black
-Color: light_red     #ff8c7e                  210        Red
-Color: vivid_orange  #faae3d                  214        Yellow
-Color: vivid_yellow  #f9e173                  227        Yellow
+Color: light_red     #ff7565                  203        Red
+Color: vivid_orange  #fa9e3d                  214        Yellow
+Color: vivid_yellow  #f9e064                  227        Yellow
 Color: light_blue    #84baff                  075        Blue
 Color: soft_violet   #de98fa                  219        Magenta
 Color: calm_teal     #6de0a7                  086        Cyan
@@ -184,7 +184,7 @@ Ignore               warm_white        none
 PreProc              vivid_yellow      none
 Special              light_blue        none              italic
 Statement            light_red         none
-Todo                 soft_violet       none
+Todo                 soft_violet       none              reverse
 Type                 vivid_orange      none
 Underlined           light_blue        none              underline
 ; See `:help CursorIM`
