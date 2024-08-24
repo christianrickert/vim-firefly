@@ -1,4 +1,4 @@
-# firefly  🪲
+# Firefly  🪲
 
 ![Artist's impression (ChatGPT, let's be real) of fireflies gathering at a forest clearing.](templates/firefly.png)
 
