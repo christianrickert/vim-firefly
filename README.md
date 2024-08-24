@@ -4,6 +4,8 @@
 
 _firefly_ is my personal dark vim color scheme with vibrant, but muted colors.
 
+🟥 🟧 🟨 🟩 🟦 🟪
+
 I got tired of looking at pea green strings with [gruvbox](https://github.com/morhetz/gruvbox) and created my own color scheme[^1]: _firefly_'s colors reduce eye strain and help my brain process buggy source code late into the night, hence the name.
 <br />
 <table>
