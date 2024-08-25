@@ -21,7 +21,7 @@ Option Prefix: dark
 ; `:help group-name`
 ;
 ; Xterm 2256 color chart
-; (https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg)
+; <https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg>
 ;
 ; Documentation {{{
 Include: _help.colortemplate
@@ -148,7 +148,7 @@ FoldColumn           warm_white        dark_warm_ash
 Folded               warm_white        dark_warm_ash     italic
 IncSearch            warm_white        dark_warm_ash     t=reverse g=standout
 LineNr               medium_gray       dark_warm_ash
-MatchParen           warm_white        dark_warm_ash     reverse
+MatchParen           soft_violet       none              reverse
 ModeMsg              warm_white        dark_warm_ash
 MoreMsg              warm_white        dark_warm_ash
 NonText              warm_white        dark_warm_ash
