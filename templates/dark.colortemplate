@@ -19,6 +19,7 @@ Option Prefix: dark
 ;
 ; Visualize scheme:
 ; `:help group-name`
+; `:help highlight-groups`
 ;
 ; Xterm 2256 color chart
 ; <https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg>
@@ -45,8 +46,6 @@ Function          -> Identifier
 Include           -> PreProc
 Keyword           -> Statement
 Label             -> Statement
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
 Macro             -> PreProc
 MessageWindow     -> WarningMsg
 Number            -> Constant
@@ -142,17 +141,19 @@ DiffChange           warm_white        dark_warm_ash     reverse
 DiffDelete           warm_white        dark_warm_ash     reverse
 DiffText             warm_white        dark_warm_ash     bold,reverse
 Directory            warm_white        dark_warm_ash
-EndOfBuffer          warm_white        dark_warm_ash
+EndOfBuffer          medium_gray       dark_warm_ash
 ErrorMsg             warm_white        dark_warm_ash     reverse
 FoldColumn           warm_white        dark_warm_ash
 Folded               warm_white        dark_warm_ash     italic
 IncSearch            warm_white        dark_warm_ash     t=reverse g=standout
-LineNr               medium_gray       dark_warm_ash
+LineNr               warm_white        dark_warm_ash
+LineNrAbove          medium_gray       dark_warm_ash
+LineNrBelow          medium_gray       dark_warm_ash
 MatchParen           soft_violet       none              reverse
 ModeMsg              warm_white        dark_warm_ash
 MoreMsg              warm_white        dark_warm_ash
-NonText              warm_white        dark_warm_ash
-Pmenu                warm_white        dark_warm_ash
+NonText              soft_violet       none              reverse
+Pmenu                warm_white        medium_gray
 PmenuSbar            warm_white        dark_warm_ash
 PmenuSel             warm_white        dark_warm_ash     reverse
 PmenuThumb           warm_white        dark_warm_ash
@@ -164,13 +165,13 @@ SpellBad             warm_white        dark_warm_ash     s=red
 SpellCap             warm_white        dark_warm_ash     s=blue
 SpellLocal           warm_white        dark_warm_ash     s=magenta
 SpellRare            warm_white        dark_warm_ash     s=cyan reverse
-StatusLine           warm_white        dark_warm_ash
-StatusLineNC         warm_white        dark_warm_ash
+StatusLine           warm_white        medium_gray
+StatusLineNC         black             medium_gray
 TabLine              warm_white        dark_warm_ash
 TabLineFill          warm_white        dark_warm_ash
 TabLineSel           warm_white        dark_warm_ash
 Title                warm_white        dark_warm_ash
-VertSplit            warm_white        dark_warm_ash
+VertSplit            medium_gray       dark_warm_ash
 Visual               warm_white        dark_warm_ash     reverse
 VisualNOS            warm_white        dark_warm_ash
 WarningMsg           warm_white        dark_warm_ash
