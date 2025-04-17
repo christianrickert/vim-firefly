@@ -197,6 +197,12 @@ ToolbarButton        warm_white        dark_warm_ash     bold
 
 ; Additional highlight groups {{{
 ; Add additional highlight groups here if you want
+ALEError             dark_warm_ash     red
+ALEErrorSign         red               none
+ALEInfo              dark_warm_ash     green
+ALEInfoSign          green             none
+ALEWarning           dark_warm_ash     yellow
+ALEWarningSign       yellow            none
 ; }}}
 
 ; B/W variant {{{
