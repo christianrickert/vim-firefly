@@ -21,8 +21,10 @@ Option Prefix: dark
 ; `:w! | Colortemplate! ~/Documents/Github/vim-firefly`
 ;
 ; Visualize scheme:
-; `:help group-name`
-; `:help highlight-groups`
+; `:set t_Co=16`
+; `:set t_Co=256`
+; `:help group-name | more`
+; `:help highlight-groups | more`
 ;
 ; Xterm 2256 color chart
 ; <https://en.wikipedia.org/wiki/Xterm#/media/File:Xterm_256color_chart.svg>
