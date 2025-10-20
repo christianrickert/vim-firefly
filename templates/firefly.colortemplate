@@ -189,7 +189,7 @@ DiffChange           vivid_yellow      black             reverse
 DiffDelete           light_red         black             reverse
 DiffText             white             black             bold,reverse
 Directory            white             black
-EndOfBuffer          white             black
+EndOfBuffer          medium_gray       black
 ErrorMsg             light_red         black
 FoldColumn           white             black
 Folded               medium_gray       black             italic
