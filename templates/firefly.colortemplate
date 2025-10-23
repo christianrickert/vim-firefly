@@ -198,8 +198,8 @@ Folded               medium_gray       black             italic
 ; and/or discriminator values. Here, IncSearch has
 ; a 'standout' attribute instead of a 'reverse' attribute in
 ; gVim:
-IncSearch            white             black             reverse
-IncSearch/gui        white             black             standout
+IncSearch            white             medium_gray
+IncSearch/gui        white             medium_gray
 LineNr               white             black
 LineNrAbove          medium_gray       black
 LineNrBelow          medium_gray       black
@@ -212,7 +212,7 @@ PmenuSbar            warm_white        dark_warm_ash
 PmenuSel             warm_white        dark_warm_ash     reverse
 PmenuThumb           warm_white        dark_warm_ash
 Question             white             black
-Search               white             black             reverse
+Search               white             medium_gray
 SignColumn           white             black
 SpecialKey           white             black
 SpellBad             white             black             s=red
