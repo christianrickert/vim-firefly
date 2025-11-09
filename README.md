@@ -32,9 +32,6 @@ _Firefly_'s color palette is optimized for Vim's `termguicolors`, but it adjusts
 >Plug 'christianrickert/vim-firefly'
 >
 >call plug#end()
->
->" optional: prevent MatchParen from disappearing cursor
->let g:matchparen_disable_cursor_hl=1
 >```
 
 >[!NOTE]  
