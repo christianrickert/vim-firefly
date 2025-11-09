@@ -36,6 +36,7 @@ _Firefly_'s color palette is optimized for Vim's `termguicolors`, but it adjusts
 
 >[!NOTE]  
 >Thanks to Michael Elmore for helping produce a color variant optimized for people with protanopia or deuteranopia!
+<img width="1578" height="213" alt="color-palette_anopia" src="https://github.com/user-attachments/assets/01d20c26-d193-446c-a340-994b06be003d" />
 
 _I hope you will enjoy _Firefly_ as much as I do!_  🌙
 
