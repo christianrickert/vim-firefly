@@ -1,12 +1,12 @@
-*firefly.txt*	For Vim version 9	Last change: 2025 Nov 08
+*firefly_anopia.txt*	For Vim version 9	Last change: 2025 Nov 08
 
 
-		  Firefly color scheme    by Christian Rickert <rc.email@icloud.com>
+		  Firefly (*anopia) color scheme    by Christian Rickert <rc.email@icloud.com>
 
-Firefly, a color scheme with a unique touch.
+Firefly (*anopia), a color scheme with a unique touch.
 
 ==============================================================================
-Color scheme options					*firefly-options*
+Color scheme options					*firefly_anopia-options*
 
 						*g:fy_transp_bg*
 Set to 1 if you want a transparent background. Takes effect only in the
