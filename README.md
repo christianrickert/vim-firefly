@@ -37,6 +37,9 @@ _Firefly_'s color palette is optimized for Vim's `termguicolors`, but it adjusts
 >let g:matchparen_disable_cursor_hl=1
 >```
 
+>[!NOTE]  
+>Thanks to Michael Elmore for helping produce a color variant optimized for people with Protanopia or Deuteranopia!
+
 _I hope you will enjoy _Firefly_ as much as I do!_  🌙
 
 [^1]: The color scheme files were generated with [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate).
