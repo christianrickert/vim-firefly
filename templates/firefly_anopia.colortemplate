@@ -56,8 +56,8 @@ endverbatim
 
 ; Linked groups do not depend on colors, so they may be
 ; defined before defining colors:
-Added             -> diffAdded
-Changed           -> diffChanged
+Added             -> DiffAdd
+Changed           -> DiffChange
 Character         -> Constant
 Boolean           -> Constant
 ComplMatchIns     -> Normal
@@ -93,7 +93,7 @@ PopupSelected     -> PmenuSel
 PreCondit         -> PreProc
 PreInsert         -> NonText
 QuickFixLine      -> Search
-Removed           -> diffRemoved
+Removed           -> DiffDelete
 Repeat            -> Statement
 SpecialChar       -> Special
 SpecialComment    -> Special
@@ -178,11 +178,11 @@ Terminal
   /256/8+transp_bg 1 white             none
 
 ; Group              Foreground        Background        Attributes
-ColorColumn          fg                black
+;ColorColumn          fg                black
 Conceal              none              none
 Cursor               white             black             reverse
-CursorColumn         white             black
-CursorLine           white             black
+;CursorColumn         white             black
+;CursorLine           white             black
 CursorLineNr         white             black
 DiffAdd              calm_teal         black             reverse
 DiffChange           vivid_yellow      black             reverse
