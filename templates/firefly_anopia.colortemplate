@@ -192,7 +192,7 @@ Directory            white             black
 EndOfBuffer          medium_gray       black
 ErrorMsg             light_red         black
 FoldColumn           white             black
-Folded               medium_gray       black             italic
+Folded               medium_gray       black
 ; Every highlight group must have a default definition. The
 ; default definition may be overriden for specific variants
 ; and/or discriminator values. Here, IncSearch has
@@ -233,7 +233,7 @@ WildMenu             white             black
 
 Bold                 white             none              bold
 BoldItalic           white             none              bold,italic
-Comment              soft_violet       none              italic
+Comment              soft_violet       none
 Constant             light_blue        none
 Error                light_red         none
 Identifier           calm_teal         none
@@ -242,10 +242,10 @@ Italic               white             none              italic
 PreProc              vivid_yellow      none
 Special              light_blue        none
 Statement            light_red         none
-Todo                 soft_violet       none              reverse
+Todo                 vivid_yellow      none              reverse
 Type                 vivid_orange      none
 Underlined           light_blue        none              underline
-CursorIM             none              fg
+CursorIM             white             black             reverse
 ToolbarLine          none              black
 ToolbarButton        white             black             bold
 

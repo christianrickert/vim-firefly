@@ -1,4 +1,4 @@
-*firefly.txt*	For Vim version 9	Last change: 2025 Nov 08
+*firefly.txt*	For Vim version 9	Last change: 2025 Dec 29
 
 
 		  Firefly color scheme    by Christian Rickert <rc.email@icloud.com>
